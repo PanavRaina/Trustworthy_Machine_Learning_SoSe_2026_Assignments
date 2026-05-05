@@ -266,4 +266,4 @@ with open(OUT_PATH, "w", newline="") as f:
     for id_, s in zip(priv_ids, priv_scores.tolist()):
         writer.writerow([id_, s])
 
-print(f"saved {len(priv_ids)} rows -> {OUT_PATH}")
+print("csv saved")
