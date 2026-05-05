@@ -116,7 +116,7 @@ pub_memberships = np.array([pub_ds[i][3] for i in range(n_pub)], dtype=int)
 
 n_shadow_train  = int(n_pub * TRAIN_FRAC)
 
-print(f"pub: {n_pub} samples , priv: {n_priv} samples , shadow train size: {n_shadow_train}")
+print(f"public: {n_pub} samples , private: {n_priv} samples , shadow train size: {n_shadow_train}")
 
 #function for calculating tpr 
 def tpr_at_fpr(scores, memberships, target_fpr=0.05):
