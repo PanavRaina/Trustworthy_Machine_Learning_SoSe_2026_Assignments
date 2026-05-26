@@ -36,7 +36,7 @@ https://huggingface.co/SprintML/tml26_task2/tree/main
 ```
 
 ## Edit the path  
-Open the `main.py` script and set the `BASE_DIR` to the directory where your files are:
+Open the `tml_2.py` script and set the following paths to the directory where your files are:
 ```python
 SUSPECT_DIR    = "/home/atml_team038/tml26_task2/suspect_models"
 TARGET_WEIGHTS = "/home/atml_team038/tml26_task2/target_model/weights.safetensors"
