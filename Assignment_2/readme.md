@@ -11,10 +11,10 @@ Submit file used:
 ```
 universe		= docker
 docker_image		= uvarc/pytorch:2.0.1
-executable              = /home/atml_team038/tml26_task2/app_3.py
-output                  = /home/atml_team038/tml26_task2/LOGS/app_3.$(ClusterId).$(ProcId).out
-error                   = /home/atml_team038/tml26_task2/LOGS/app_3.$(ClusterId).$(ProcId).err
-log                     = /home/atml_team038/tml26_task2/LOGS/app_3.$(ClusterId).log
+executable              = /home/atml_team038/tml26_task2/tml_2.py
+output                  = /home/atml_team038/tml26_task2/LOGS/tml_2.$(ClusterId).$(ProcId).out
+error                   = /home/atml_team038/tml26_task2/LOGS/tml_2.$(ClusterId).$(ProcId).err
+log                     = /home/atml_team038/tml26_task2/LOGS/tml_2.$(ClusterId).log
 should_transfer_files   = YES
 request_GPUs = 1
 request_CPUs = 1
