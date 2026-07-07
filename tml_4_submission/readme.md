@@ -3,6 +3,9 @@
 ## Recreating the best result
 
 ## Requirements: Install all the required libraries mentioned in the requirements.txt file 
+```bash
+pip install -r requirements.txt
+```
 
 ## The file to run is `./videoseal/wmforger/main.py`. This file will give our result
 ## The analysis.py is our other experiment file . It can be found in  `./videoseal/wmforger/analysis.py`
@@ -29,7 +32,7 @@ OUTPUT_DIR = "./forged_final_raftaar12345"
 ```
 
 ## Run 
-
+run this from inside `tml_4_submission/videoseal/wmforger/` directory as CKPT_PATH and CONFIG_PATH paths are relative to that directory.
 
 ## Expected result
 
