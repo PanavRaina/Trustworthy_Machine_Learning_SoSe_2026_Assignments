@@ -5,13 +5,13 @@
 ## Requirements: Install all the required libraries mentioned in the requirements.txt file 
 
 ## The file to run is `./videoseal/wmforger/main.py`. This file will give our result
-## The analysis.py is our other experiment file . It can be found in ./videoseal/wmforger/analysis.py
+## The analysis.py is our other experiment file . It can be found in  `./videoseal/wmforger/analysis.py`
 
 ## Before running the code, download the model using the following command 
 ```
 wget https://dl.fbaipublicfiles.com/wmforger/convnext_pref_model.pth
 ```
-Place the model in the following directory: ./videoseal/wmforger/
+Place the model in the following directory: `./videoseal/wmforger/`
 
 ## Data files 
 
@@ -37,6 +37,6 @@ OUTPUT_DIR = "./forged_final_raftaar12345"
 
 ## Output
 
-Your output is saved in the  `./videoseal/wmforger/` directory as `submission.zip`
+The output is saved in the  `./videoseal/wmforger/` directory as `submission.zip`
 
 
