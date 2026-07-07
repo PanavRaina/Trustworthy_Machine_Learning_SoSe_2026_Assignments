@@ -37,6 +37,6 @@ OUTPUT_DIR = "./forged_final_raftaar12345"
 
 ## Output
 
-Your output is saved in the base directory as `submission.zip`
+Your output is saved in the  `./videoseal/wmforger/` directory as `submission.zip`
 
 
